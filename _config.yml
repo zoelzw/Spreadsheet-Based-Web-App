@@ -7,5 +7,5 @@ description: Testing Jekyll and Jquery tables
 #   enabled: true
 #   collections: true
 markdown: kramdown
-permalink: /table/:year/:month/:day/:title
+permalink: /Spreadsheet-Based-Web-App/table/:year/:month/:day/:title
 
