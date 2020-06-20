@@ -6,6 +6,6 @@ title: testing tables
 	<ul class="table">
 
 	  {% for table in site.tables %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ table.date | date_to_string }}</span> » <a href="{{ table.url }}" title="{{ table.title }}">{{ table.title }}</a></li>
 	  {% endfor %}
 	</ul>
