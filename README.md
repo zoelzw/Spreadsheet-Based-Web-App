@@ -16,7 +16,7 @@
 ## Approaches 
 
 1. searchable markdown tables on a static site 
-  - Jekyll 
+  - Jekyll + DataTable
   - Flask 
 2. Google sheets as database 
   - Google Sites 
