@@ -1,5 +1,5 @@
 # theme: jekyll-theme-hacker
-title: Welcome to Zoe's homepage 
-description: this is Zoe Liu's personal website.
+title: Testing 
+description: Testing Jekyll and Jquery tables 
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# permalink: /blog/:year/:month/:day/:title
