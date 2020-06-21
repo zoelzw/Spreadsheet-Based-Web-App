@@ -1,11 +1,16 @@
 # theme: jekyll-theme-hacker
 title: Testing 
-description: Testing Jekyll and Jquery tables 
+description: Testing Jekyll and jQuery tables 
 # plugins:
 #   - jekyll-relative-links
 # relative_links:
 #   enabled: true
 #   collections: true
 markdown: kramdown
-permalink: /Spreadsheet-Based-Web-App/demo1/:year/:month/:day/:title
+# permalink: /Spreadsheet-Based-Web-App/demo1/:year/:month/:day/:title
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
