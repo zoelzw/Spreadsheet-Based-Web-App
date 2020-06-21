@@ -10,7 +10,7 @@ markdown: kramdown
 # permalink: /Spreadsheet-Based-Web-App/demo1/:year/:month/:day/:title
 defaults:
   - scope:
-      path: "assets/img"
+      path: "assets"
     values:
       image: true
 
