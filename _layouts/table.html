@@ -1,9 +1,29 @@
----
-layout: default
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="table">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/Spreadsheet-Based-Web-App">Home</a></li>
+		        	<li><a href="/Spreadsheet-Based-Web-App/jekyll/function">View Products by Function</a></li>
+	        		<li><a href="/Spreadsheet-Based-Web-App/jekyll/price">View Products by Price</a></li>
+	        		<li><a href="/Spreadsheet-Based-Web-App/jekyll/region">View Products by Region</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:ziweiliu@uchicago.edu">email</a></li>
+	        		<li><a href="https://github.com/zoelzw">github.com/zoelzw</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
