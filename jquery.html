@@ -1,64 +1,74 @@
-<table id="table_id" 
-
-class="">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descriptions)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Product)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Brand.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Size)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Category)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Descriptions)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CategoryMaster.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Employee.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EstEndDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EstHours)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Status)
-                </td>
-                <td>
-                   @Html.ActionLink(Resources.Edit, "Edit", 
-            new { id = item.ID }, htmlAttributes: new {                     
-                @class = "btn btn-default btn-sm" })
-                </td>
-            </tr>
-        }
-    </tbody>
+<table style="width:100%">
+  <tr>
+    <th>Category</th>
+    <th>Product</th>
+    <th>Brand</th>
+    <th>Website</th>
+    <th>Price</th> 
+    <th>Size</th>
+  </tr>
+  <tr>
+    <td>tool</td>
+    <td>pen</td> 
+    <td>idk</td>
+    <td>google.com</td>
+    <td>10</td> 
+    <td>none</td>
+  </tr>
+  <tr>
+    <td>tool</td>
+    <td>aa</td> 
+    <td>zz</td>
+    <td>google.com</td>
+    <td>1</td> 
+    <td>none</td>
+  </tr>
+    <tr>
+    <td>tool</td>
+    <td>pen</td> 
+    <td>idk</td>
+    <td>google.com</td>
+    <td>1000000</td> 
+    <td>none</td>
+  </tr>
+    <tr>
+    <td>shoes</td>
+    <td>ashoe</td> 
+    <td>z</td>
+    <td>google.com</td>
+    <td>100</td> 
+    <td>5</td>
+  </tr>
+    <tr>
+    <td>tool</td>
+    <td>apen</td> 
+    <td>idk</td>
+    <td>google.com</td>
+    <td>10</td> 
+    <td>0</td>
+  </tr>
+    <tr>
+    <td>shirt</td>
+    <td>t</td> 
+    <td>b</td>
+    <td>google.com</td>
+    <td>11</td> 
+    <td>10</td>
+  </tr>
+    <tr>
+    <td>pants</td>
+    <td>xx</td> 
+    <td>a</td>
+    <td>google.com</td>
+    <td>10000</td> 
+    <td>0</td>
+  </tr>
+    <tr>
+    <td>tool</td>
+    <td>pen2</td> 
+    <td>abc</td>
+    <td>google.com</td>
+    <td>100</td> 
+    <td>none</td>
+  </tr>
 </table>
