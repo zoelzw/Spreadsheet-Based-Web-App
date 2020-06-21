@@ -8,17 +8,24 @@
   - navigation bars 
 - implementation and maintainess 
   - free 
-- feedbacks 
+- feedback/comments/new records
   - easy to update from the front end 
   - secure 
 
 
 ## Approaches 
+0. static sites that contains pre-made tables/lists...
+  - could add comment functions by Staticman
+  - subscribable using atom
+  - could build a web crawler to keep generating and adding the latest products around the world 
 
-1. searchable markdown tables on a static site 
-  - Jekyll + DataTable
-  - Flask 
+  
+1. searchable html tables 
+  - Jekyll + jQuery 
+  - Flask (later)
+  
 2. Google sheets as database 
   - Google Sites 
   - Google Sheet Web App 
+  
 3. PSQL database with front end implementations to directly manipulate the database
