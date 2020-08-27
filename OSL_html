@@ -1,0 +1,42 @@
+<div style="width:200px;" class="mobile">
+        <div>
+                <div class="mobile-image">
+                        <img src="{{Image URL}}" />
+                </div>
+                
+                <div class="mobile-price">
+                        <span class="price-display">
+                                <b>{{Price}}</b>
+                        </span>
+                </div>
+        </div>
+</div>
+
+<div class="mobile-bis">
+        <div class="screen">
+                <div>
+                        <div class="Name">{{Name}}</div> {{Price Category}}
+                        <br>
+                        <span class="Region">Region: {{Region}}</span>
+                        <br>
+                        <br>
+                        {{Description}}
+                        <br>
+                        <br>
+                        <div>
+                                <div class="display-feature">
+                                        <img class="feature" data-features="{{Features}}" data-facility="parking" src="https://sites.google.com/site/scriptsexamples/parking-icon.png">
+                                        <img class="feature" data-features="{{Features}}" data-facility="wifi" src="https://sites.google.com/site/scriptsexamples/wifi-icon.png">
+                                        <img class="feature" data-features="{{Features}}" data-facility="gym" src="https://sites.google.com/site/scriptsexamples/gym-icon.png">
+                                </div>  
+                                <div class="priceCategory">
+                                        <img class="price" data-features="{{PriceCategory}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-01.png?raw=true">
+                                        <img class="price" data-features="{{PriceCategory}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-02.png?raw=true">
+                                        <img class="price" data-features="{{PriceCategory}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-03.png?raw=true">
+                                </div>
+                                <div class="button-learn-more">
+                                        <a target="_blank" href="https://www.google.com/search?q={{Name}}">Learn More</a>
+                                </div>
+                        </div>
+                </div>
+        </div>
