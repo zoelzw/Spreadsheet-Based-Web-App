@@ -18,7 +18,7 @@
         max-width: 200px;
 }
 
-.mobile-price {
+.mobile-summary {
         position:absolute;
         z-index:1;
         background-color:rgba(0,0,0,0.5);
@@ -29,7 +29,7 @@
 }
 
 
-.price-display {
+.summary-display {
         padding-left:10px;
         font-size: 1em;
 }
@@ -93,8 +93,22 @@ img[data-facilities*="Gym"][data-facility="gym"]{
         float: right;
 }
 
-.rate{
-        display: inline-block;
+.priceCategory{
+        display:none;
+        width:35px;
+}
+img[data-priceCategories*="low"][data-priceCategory="low"]{
+        display:inline-block;
+}
+img[data-priceCategories*="medium"][data-priceCategory="medium"]{
+        display:inline-block;
+}
+img[data-priceCategories*="high"][data-priceCategory="high"]{
+        display:inline-block;
+}
+
+.display-priceCategory {
+          display: inline-block;
         font-size: 19px;
         margin-left: 8px;
 }
