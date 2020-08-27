@@ -1,0 +1,100 @@
+.mobile>div {
+        position:relative;
+        height:200px;
+        margin: 0 !important;
+        padding: 0 !important;
+}
+
+.mobile-image {
+        position:absolute;
+        z-index:0;
+        width: 200px;
+        margin: 0 !important;
+        padding: 0 !important;
+}
+
+.mobile-image>img {
+        margin:0 !important;
+        max-width: 200px;
+}
+
+.mobile-price {
+        position:absolute;
+        z-index:1;
+        background-color:rgba(0,0,0,0.5);
+        color:#fff;
+        height: 40px;
+        bottom: 0;
+        width: 200px;
+}
+
+
+.price-display {
+        padding-left:10px;
+        font-size: 1em;
+}
+
+.screen {
+        text-align:justify;
+        width:100%;
+}
+
+.Name {
+        display:inline-block;
+        margin-left:-2px;
+}
+.Name {
+        line-height: 20px;
+        font-size: 16px;
+        color: #000000;
+        font-weight: normal;
+}
+.Region {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 5px 0 0 0;
+        color: #666;
+}
+.feature{
+        display:none;
+        width:35px;
+}
+img[data-facilities*="Parking"][data-facility="parking"]{
+        display:inline-block;
+}
+img[data-facilities*="WIFI"][data-facility="wifi"]{
+        display:inline-block;
+}
+img[data-facilities*="Gym"][data-facility="gym"]{
+        display:inline-block;
+}
+
+.display-feature {
+        display:inline-block;
+        color: #aaaaaa;
+        padding: 0!important;
+}
+
+.button-learn-more{
+        display:inline-block;
+        float: right;
+}
+
+.button-learn-more>a {
+        color:white!important;
+        background-color: rgb(0, 0, 0);
+        border-radius:2px;
+        display:inline-block;
+        font-size:14px;
+        font-weight:bold;
+        padding:8px!important;
+        text-align:center;
+        text-decoration:none;
+        float: right;
+}
+
+.rate{
+        display: inline-block;
+        font-size: 19px;
+        margin-left: 8px;
+}
