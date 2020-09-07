@@ -1,3 +1,24 @@
+
+<div style="width:200px;" class="mobile">
+        <div>
+                <div class="mobile-image">
+                        <img src="{{Image URL}}" />
+                </div>
+                
+                <div class="mobile-summary">
+                        <span class="summary-display">
+                                <b>{{Summary}}</b>
+                        </span>
+                </div>
+        </div>
+</div>
+
+<div class="mobile-bis">
+        <div class="screen">
+                <div>
+                        <div class="Name">{{Name}}</div> 
+                            <div class="display-priceCategory">
+                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="low" src="
 <div style="width:200px;" class="mobile">
         <div>
                 <div class="mobile-image">
@@ -18,6 +39,30 @@
                         <div class="Name">{{Name}}</div> 
                             <div class="display-priceCategory">
                                         <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-01.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-02.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-03.png?raw=true">
+                            </div>
+                        <br>
+                        <span class="Region">Region: {{Region}}</span>
+                        <br>
+                        <br>
+                        {{Description}}
+                        <br>
+                        <br>
+                        <div>
+                                <div class="display-feature">
+                                        <img class="feature" data-features="{{Features}}" data-feature="parking" src="https://sites.google.com/site/scriptsexamples/parking-icon.png">
+                                        <img class="feature" data-features="{{Features}}" data-feature="wifi" src="https://sites.google.com/site/scriptsexamples/wifi-icon.png">
+                                        <img class="feature" data-features="{{Features}}" data-feature="gym" src="https://sites.google.com/site/scriptsexamples/gym-icon.png">
+                                </div>  
+                            
+                                <div class="button-learn-more">
+                                        <a target="_blank" href="https://www.google.com/search?q={{Name}}">Learn More</a>
+                                </div>
+                        </div>
+                </div>
+        </div>
+">
                                         <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-02.png?raw=true">
                                         <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-03.png?raw=true">
                             </div>
