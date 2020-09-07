@@ -1,0 +1,63 @@
+
+/*** Awesome Table ***/
+
+
+/*** Google visualization override ***/
+
+/* Table view header */
+.google-visualization-table-table .gradient,
+.google-visualization-table-div-page .gradient {
+        background: #3C81F8 !important;
+        color:#ffffff;
+}
+.suggest {
+z-index: 1;
+position: absolute;
+margin-top: 0px;
+left: 0px;
+}
+/* selected/hovered row in a TABLE view */
+.google-visualization-table-tr-sel td,
+.google-visualization-table-tr-over td {
+        background-color: #D6E9F8!important;
+}
+
+/*** Configuration of FILTERS ***/
+
+
+/* CategoryFilter & csvFilter hovered item in the dropdown */
+.charts-menuitem-highlight {
+        background-color:#437AF8!important;
+        color:#FFF!important;
+}
+
+/* header */
+.google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
+        background: #000000 !important;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-weight: normal;
+}
+
+.google-visualization-controls-label {
+        font-weight: 500!important;
+}
+
+@media (max-width: 550px) {
+        .mobile {
+                margin: 10px auto 10px auto!important;
+                float:none;
+        }
+        .mobile-bis {
+                margin : 10px!important;
+        }
+}
+@media (min-width: 550px) {
+        .mobile {
+                margin: 20px!important;
+                float:left;
+        }
+        .mobile-bis {
+                margin : 20px!important;
+        }
+}
