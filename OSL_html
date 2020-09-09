@@ -29,11 +29,11 @@
                                 <div class="Name">Product Types</div>
                                 <br>
                                 <div class="display-functions">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="Menswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Menswear.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="Womenswearl" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Womenswear.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="Unisex" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="Kidswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="Maternity" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
+                                        <img class="functions" data-types="{{Product Types}}" data-type="Menswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Menswear.png?raw=true">
+                                        <img class="functions" data-types="{{Product Types}}" data-type="Womenswearl" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Womenswear.png?raw=true">
+                                        <img class="functions" data-types="{{Product Types}}" data-type="Unisex" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
+                                        <img class="functions" data-types="{{Product Types}}" data-type="Kidswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
+                                        <img class="functions" data-types="{{Product Types}}" data-type="Maternity" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
                                 </div>
                         <br>
                         <br>
