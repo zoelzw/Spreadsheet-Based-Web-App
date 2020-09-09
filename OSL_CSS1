@@ -97,26 +97,53 @@ img[data-priceCategories*="High"][data-priceCategory="high"]{
         display:none;
         width:55px;
 }
-img[data-functions*="small people"][data-function="small people"]{
+img[data-functions*="AFOs-Friendly"][data-function="AFOs-Friendly"]{
         display:inline-block;
 }
-img[data-functions*="big and tall"][data-function="big and tall"]{
+img[data-functions*="Bespoke"][data-function="Bespoke"]{
         display:inline-block;
 }
-img[data-functions*="plus size"][data-function="plus size"]{
+img[data-functions*="Big And Tall"][data-function="Big And Tall"]{
+        display:inline-block;
+}
+img[data-functions*="Blind-Friendly"][data-function="Blind-Friendly"]{
+        display:inline-block;
+}
+img[data-functions*="Easy Dressing"][data-function="Easy Dressing"]{
+        display:inline-block;
+}
+img[data-functions*="Feeding-Tube-Friendly"][data-function="Feeding-Tube-Friendly"]{
+        display:inline-block;
+}
+img[data-functions*="Loose Fit"][data-function="Loose Fit"]{
+        display:inline-block;
+}
+img[data-functions*="Plus Size"][data-function="Plus Size"]{
+        display:inline-block;
+}
+img[data-functions*="Seated Body"][data-function="Seated Body"]{
+        display:inline-block;
+}
+img[data-functions*="Sensory-Friendly"][data-function="Sensory-Friendly"]{
+        display:inline-block;
+}
+img[data-functions*="Small People"][data-function="Small People"]{
         display:inline-block;
 }
 
-img[data-types*="unisex"][data-function="unisex"]{
+img[data-types*="Unisex"][data-function="Unisex"]{
         display:inline-block;
 }
-img[data-types*="womenswearl"][data-type="womenswear"]{
+img[data-types*="Womenswearl"][data-type="Womenswear"]{
         display:inline-block;
 }
-img[data-types*="menswear"][data-type="menswear"]{
+img[data-types*="Menswear"][data-type="Menswear"]{
         display:inline-block;
 }
-img[data-types*="kidswear"][data-type="kidswear"]{
+img[data-types*="Kidswear"][data-type="Kidswear"]{
+        display:inline-block;
+}
+img[data-types*="Maternity"][data-type="Maternity"]{
         display:inline-block;
 }
 
