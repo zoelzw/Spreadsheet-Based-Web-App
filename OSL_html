@@ -16,24 +16,32 @@
 <div class="mobile-bis">
         <div class="screen">
                 <div>
-                        <div class="Name">{{Name}}</div> 
+                        <div class="Brand">{{Name}}</div> 
                                 <div class="display-priceCategory">
-                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/low.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-02.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-03.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="medium" src=https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
                                 </div>
                         <br>
                         <span class="Region">Region: {{Region}}</span>
                         <br>
                         <br>
-                        {{Description}}
+                                <div class="Name">Product Types</div>
+                                <br>
+                                <div class="display-functions">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="small people" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="big and tall" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="plus size" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
+                                </div>
                         <br>
                         <br>
                         <div>
-                                <div class="display-priceCategory">
-                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/low.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-02.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{PriceCategories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/assets/FrameworkIcon-03.png?raw=true">
+                                <div class="Name">Name</div>
+                                <br>
+                                <div class="display-functions">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="small people" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="big and tall" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="plus size" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
                                 </div>
                             
                                 <div class="button-learn-more">
