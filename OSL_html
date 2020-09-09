@@ -18,9 +18,9 @@
                 <div>
                         <div class="Brand">{{Name}}</div> 
                                 <div class="display-priceCategory">
-                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="medium" src=https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LowPrice.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/MediumPrice.png?raw=true">
+                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/HighPrice.png?raw=true">
                                 </div>
                         <br>
                         <span class="Region">Region: {{Region}}</span>
@@ -29,14 +29,15 @@
                                 <div class="Name">Product Types</div>
                                 <br>
                                 <div class="display-functions">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="small people" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="big and tall" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="plus size" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="menswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Menswear.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="womenswearl" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Womenswear.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="unisex" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="kidswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
                                 </div>
                         <br>
                         <br>
                         <div>
-                                <div class="Name">Name</div>
+                                <div class="Name">Features</div>
                                 <br>
                                 <div class="display-functions">
                                         <img class="functions" data-functions="{{Functions}}" data-function="small people" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
