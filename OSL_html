@@ -29,10 +29,11 @@
                                 <div class="Name">Product Types</div>
                                 <br>
                                 <div class="display-functions">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="menswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Menswear.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="womenswearl" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Womenswear.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="unisex" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
-                                        <img class="functions" data-functions="{{Product Types}}" data-function="kidswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="Menswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Menswear.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="Womenswearl" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Womenswear.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="Unisex" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="Kidswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Unisex.png?raw=true">
+                                        <img class="functions" data-functions="{{Product Types}}" data-function="Maternity" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
                                 </div>
                         <br>
                         <br>
@@ -40,9 +41,17 @@
                                 <div class="Name">Features</div>
                                 <br>
                                 <div class="display-functions">
-                                        <img class="functions" data-functions="{{Functions}}" data-function="small people" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
-                                        <img class="functions" data-functions="{{Functions}}" data-function="big and tall" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
-                                        <img class="functions" data-functions="{{Functions}}" data-function="plus size" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Maternity.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="AFOs-Friendly" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/AFOFriendly.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Bespoke" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Bespoke.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Big And Tall" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/BigTall.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Blind-Friendly" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/BlindFriendly.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Easy Dressing" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/EasyDressing.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Feeding-Tube-Friendly" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/FeedingTubeFriendly.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Loose Fit" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/LooseFit.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Plus Size" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/PlusSize.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Seated Body" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/SeatedBody.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Sensory-Friendly" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/SensoryFriendly.png?raw=true">
+                                        <img class="functions" data-functions="{{Functions}}" data-function="Small People" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/SmallPeople.png?raw=true">
                                 </div>
                             
                                 <div class="button-learn-more">
