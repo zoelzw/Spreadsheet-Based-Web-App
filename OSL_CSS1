@@ -131,7 +131,7 @@ img[data-functions*="Small People"][data-function="Small People"]{
         display:inline-block;
 }
 
-img[data-types*="Unisex"][data-function="Unisex"]{
+img[data-types*="Unisex"][data-type="Unisex"]{
         display:inline-block;
 }
 img[data-types*="Womenswearl"][data-type="Womenswear"]{
