@@ -39,37 +39,88 @@
         width:100%;
 }
 
+.Brand {
+        display:inline-block;
+        margin-left:-2px;
+}
+
+.Brand {
+        line-height: 20px;
+        font-size: 24px;
+        color: #000000;
+        font-weight: important;
+}
+
 .Name {
         display:inline-block;
         margin-left:-2px;
 }
+
 .Name {
         line-height: 20px;
         font-size: 16px;
         color: #000000;
         font-weight: normal;
 }
+
 .Region {
         font-size: 12px;
         line-height: 16px;
         margin: 5px 0 0 0;
         color: #666;
 }
-.feature{
+
+.priceCategory{
         display:none;
         width:35px;
 }
-img[data-facilities*="Parking"][data-facility="parking"]{
-        display:inline-block;
-}
-img[data-facilities*="WIFI"][data-facility="wifi"]{
-        display:inline-block;
-}
-img[data-facilities*="Gym"][data-facility="gym"]{
+
+img[data-priceCategories*="Low"][data-priceCategory="low"]{
         display:inline-block;
 }
 
-.display-feature {
+img[data-priceCategories*="Medium"][data-priceCategory="medium"]{
+        display:inline-block;
+}
+
+img[data-priceCategories*="High"][data-priceCategory="high"]{
+        display:inline-block;
+}
+
+.display-priceCategory {
+        display:inline-block;
+        color: #aaaaaa;
+        padding: 0!important;
+}
+
+.functions{
+        display:none;
+        width:55px;
+}
+img[data-functions*="small people"][data-function="small people"]{
+        display:inline-block;
+}
+img[data-functions*="big and tall"][data-function="big and tall"]{
+        display:inline-block;
+}
+img[data-functions*="plus size"][data-function="plus size"]{
+        display:inline-block;
+}
+
+img[data-types*="unisex"][data-function="unisex"]{
+        display:inline-block;
+}
+img[data-types*="womenswearl"][data-type="womenswear"]{
+        display:inline-block;
+}
+img[data-types*="menswear"][data-type="menswear"]{
+        display:inline-block;
+}
+img[data-types*="kidswear"][data-type="kidswear"]{
+        display:inline-block;
+}
+
+.display-functions {
         display:inline-block;
         color: #aaaaaa;
         padding: 0!important;
@@ -112,3 +163,47 @@ img[data-priceCategories*="high"][data-priceCategory="high"]{
         font-size: 19px;
         margin-left: 8px;
 }
+td {
+height: 50px;
+}
+
+.awt-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+i.awt-rating-icon.material-icons {
+color: #000000;
+}
+
+
+tbody>tr>:nth-child(1){
+ width: 150px;
+}
+
+tbody>tr>:nth-child(2){
+ width: 200px;
+}
+
+.button {
+  background-color: #ff0000;
+  border: none;
+  color: white;
+  padding: 9px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+a {text-decoration:none; color:white;}
+
+
+  
