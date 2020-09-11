@@ -18,22 +18,6 @@
         max-width: 200px;
 }
 
-.mobile-summary {
-        position:absolute;
-        z-index:1;
-        background-color:rgba(0,0,0,0.5);
-        color:#fff;
-        height: 40px;
-        bottom: 0;
-        width: 200px;
-}
-
-
-.summary-display {
-        padding-left:10px;
-        font-size: 1em;
-}
-
 .screen {
         text-align:justify;
         width:100%;
