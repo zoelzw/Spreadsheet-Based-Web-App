@@ -17,11 +17,7 @@
         <div class="screen">
                 <div>
                         <div class="Brand">{{Name}}</div> 
-                                <div class="display-priceCategory">
-                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%201.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%202.png?raw=true">
-                                        <img class="priceCategory" data-priceCategories="{{Price Categories}}" data-priceCategory="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%203.png?raw=true">
-                                </div>
+                               
                         <br>
                         <span class="Region">Region: {{Region}}</span>
                         <br>
@@ -29,6 +25,9 @@
                                 <div class="Name">Product Types</div>
                                 <br>
                                 <div class="display-functions">
+                                        <img class="functions" data-types="{{Price Categories}}" data-type="low" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%201.png?raw=true">
+                                        <img class="functions" data-types="{{Price Categories}}" data-type="medium" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%202.png?raw=true">
+                                        <img class="functions" data-types="{{Price Categories}}" data-type="high" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%203.png?raw=true">
                                         <img class="functions" data-types="{{Product Types}}" data-type="Menswear" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%205.png?raw=true">
                                         <img class="functions" data-types="{{Product Types}}" data-type="Womenswearl" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%204.png?raw=true">
                                         <img class="functions" data-types="{{Product Types}}" data-type="Unisex" src="https://github.com/zoelzw/Spreadsheet-Based-Web-App/blob/master/OSL-Icons/Artboard%206.png?raw=true">
