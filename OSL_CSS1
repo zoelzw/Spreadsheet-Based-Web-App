@@ -70,32 +70,10 @@
         color: #666;
 }
 
-.priceCategory{
-        display:none;
-        width:35px;
-}
-
-img[data-priceCategories*="Low"][data-priceCategory="low"]{
-        display:inline-block;
-}
-
-img[data-priceCategories*="Medium"][data-priceCategory="medium"]{
-        display:inline-block;
-}
-
-img[data-priceCategories*="High"][data-priceCategory="high"]{
-        display:inline-block;
-}
-
-.display-priceCategory {
-        display:inline-block;
-        color: #aaaaaa;
-        padding: 0!important;
-}
 
 .functions{
         display:none;
-        width:55px;
+        width:75px;
 }
 img[data-functions*="AFOs-Friendly"][data-function="AFOs-Friendly"]{
         display:inline-block;
@@ -130,8 +108,16 @@ img[data-functions*="Sensory-Friendly"][data-function="Sensory-Friendly"]{
 img[data-functions*="Small People"][data-function="Small People"]{
         display:inline-block;
 }
-
-img[data-types*="Unisex"][data-type="Unisex"]{
+img[data-types*="AFOs-Friendly"][data-function="AFOs-Friendly"]{
+        display:inline-block;
+}
+img[data-types*="Medium"][data-type="Medium"]{
+        display:inline-block;
+}
+img[data-types*="High"][data-type="High"]{
+        display:inline-block;
+}
+img[data-types*="Low"][data-type="Low"]{
         display:inline-block;
 }
 img[data-types*="Womenswearl"][data-type="Womenswear"]{
